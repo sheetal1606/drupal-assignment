@@ -1,0 +1,7 @@
+custom_location_block.settings:
+  path: '/admin/structure/custom_location_block/settings'
+  defaults:
+    _form: '\Drupal\custom_location_block\Form\LocationConfigurationForm'
+    _title: 'Location configuration form'
+  requirements:
+    _permission: 'administer site configuration'

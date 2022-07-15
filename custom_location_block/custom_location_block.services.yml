@@ -1,0 +1,4 @@
+services:
+  custom_location_block.time:
+    class: Drupal\custom_location_block\CurrentTime
+    arguments: ['@date.formatter', '@config.factory']

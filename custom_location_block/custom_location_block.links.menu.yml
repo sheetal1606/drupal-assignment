@@ -1,0 +1,6 @@
+custom_location_block.admin:
+  title: 'Location block settings'
+  description: 'Location block settings'
+  parent: system.admin_config_development
+  route_name: custom_location_block.settings
+  weight: 100

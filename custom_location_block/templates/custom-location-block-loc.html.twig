@@ -1,0 +1,8 @@
+{% if data|length > 0 %}
+<div class="container">
+	{% for key,value in data %}
+	  <strong>{{ key }}: </strong> {{ value }}<br>
+	{% endfor %}
+	
+</div>
+{% endif %}
